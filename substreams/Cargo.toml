@@ -1,8 +1,8 @@
 [package]
-name = "antelope_trx"
+name = "antelope_transfers"
 version = "0.1.0"
 authors = ["Yaro <yaro@pinax.network"]
-description = "Antelope transactions substream."
+description = "Antelope transfers"
 license = "MIT"
 edition = "2021"
 publish = false

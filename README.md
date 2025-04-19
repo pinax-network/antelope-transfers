@@ -1,4 +1,4 @@
-# antelope-common-example
+# antelope-transfers
 
 #### Build
 ```
@@ -24,4 +24,4 @@ substreams-sink-sql run clickhouse://default:default@localhost:9000/default subs
 
 
 #### Inspect data
-Go to http://localhost:8123/play and run a query like `SELECT * FROM default.actions FINAL;`
+Go to http://localhost:8123/play and run a query like `SELECT * FROM default.transfers;`

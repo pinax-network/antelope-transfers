@@ -1,6 +1,6 @@
 specVersion: v0.1.0
 package:
-  name: antelope_trx
+  name: antelope_transfers
   version: v0.1.0
   url: https://github.com/pinax-network/antelope-common-example
 
@@ -13,7 +13,7 @@ imports:
 binaries:
   default:
     type: wasm/rust-v1
-    file: ./target/wasm32-unknown-unknown/release/antelope_trx.wasm
+    file: ./target/wasm32-unknown-unknown/release/antelope_transfers.wasm
 
 modules:
   - name: db_out
